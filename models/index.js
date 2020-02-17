@@ -1,3 +1,4 @@
+// Preset code to use sequelize in application to query data from the database.
 'use strict';
 
 const fs = require('fs');

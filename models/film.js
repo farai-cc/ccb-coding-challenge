@@ -1,3 +1,4 @@
+// Create and export film model to be used to be used for querying using sequelize and creating film table in database
 module.exports = (sequelize,DataTypes) => {
     
     const Model = sequelize.define('film', {

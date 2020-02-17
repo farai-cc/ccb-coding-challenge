@@ -1,3 +1,4 @@
+// Create and export language model to be used to be used for querying using sequelize and creating lanugage table in database
 module.exports = (sequelize,DataTypes) => {
     
     const Model = sequelize.define('language', {

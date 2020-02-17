@@ -1,12 +1,12 @@
 require("dotenv").config();
 const db = require("../models");
 
-const actorList = require("./actors.json");
-const categoryList = require("./categories.json");
-const filmList = require("./films.json");
-const film_actorList = require("./film_actors.json");
-const film_categoryList = require("./film_categories.json");
-const languageList = require("./languages.json");
+const actorList = require("../data/actors.json");
+const categoryList = require("../data/categories.json");
+const filmList = require("../data/films.json");
+const film_actorList = require("../data/film_actors.json");
+const film_categoryList = require("../data/film_categories.json");
+const languageList = require("../data/languages.json");
 
 
 // Use the actor.js model to populate the actors.json into the actors table in mysql database using sequelize
