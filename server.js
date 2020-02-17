@@ -10,12 +10,7 @@ app.use(express.static("public"));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-// require('./controllers/html-routes.js')(app)
-app.get('/',function(req,res){
-    
-    res.send('HELLO WORLD')
-    
-})
+require('./controllers/routes.js')(app)
 
 db.sequelize.sync().then(()=>{
     
