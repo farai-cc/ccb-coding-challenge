@@ -1,6 +1,14 @@
-# Project Title
+# CCB Coding Challenge
 
-One Paragraph of project description goes here
+Your client has tasked you with making a RESTful API to support the ultimate Moviegoers Guide suite of applications.
+They are asking for an API that serves up:
+
+* A list of movies
+  * The user should be able to search the movies by title
+  * The user should be able to filter the movies by rating
+  * The user should be able to filter the movies by category
+* Movie details for each movie
+* A list of actors in a movie
 
 ## Getting Started
 
