@@ -12,11 +12,15 @@ They are asking for an API that serves up:
 
 ## Getting Started
 
+### Prerequisites
+
 To begin with this application, first you must install all of the dependencies by navigating to the /ccb directory and typing the command below into the terminal:
 
 ```
 $npm install
 ```
+
+### Installing
 
 Once all of the dependencies are installed, next you need to create a new schema called "sakila" in your mysql database.
 
@@ -24,30 +28,6 @@ Once the new schema is created, run the command below in your terminal to seed t
 
 ```
 $npm run seed
-```
-
-### Prerequisites
-
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
 ```
 
 End with an example of getting some data out of the system or using it for a little demo
