@@ -9,7 +9,7 @@ const film_categoryList = require("../data/film_categories.json");
 const languageList = require("../data/languages.json");
 
 
-// Use the actor.js model to populate the actors.json into the actors table in mysql database using sequelize
+// Use the models to create the tables in the database and then populate the the database tables using the /data/.json files
 db.sequelize.sync()
     .then(()=>db.actor.bulkCreate(actorList))
     .then(()=>db.category.bulkCreate(categoryList))
