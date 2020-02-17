@@ -1,5 +1,3 @@
-To begin with this application, first you must install all of the dependencies by navigating to the /ccb directory and typing the command below into the terminal.
-
 # Project Title
 
 One Paragraph of project description goes here
@@ -17,7 +15,7 @@ Once all of the dependencies are installed, next you need to create a new schema
 Once the new schema is created, run the command below in your terminal to seed the new schema with the necessary data for the api:
 
 ```
-npm run seed
+$npm run seed
 ```
 
 ### Prerequisites
