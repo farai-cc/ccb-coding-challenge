@@ -12,7 +12,7 @@ They are asking for an API that serves up:
 
 ## Getting Started
 
-### Prerequisites
+### Installing
 
 To begin with this application, first you must install all of the dependencies by navigating to the /ccb directory and typing the command below into the terminal:
 
@@ -20,7 +20,7 @@ To begin with this application, first you must install all of the dependencies b
 $npm install
 ```
 
-### Installing
+### Prerequisites
 
 Once all of the dependencies are installed, next you need to create a new schema called "sakila" in your mysql database.
 
